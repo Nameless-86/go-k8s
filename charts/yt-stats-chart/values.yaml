@@ -6,8 +6,8 @@ replicaCount: 1
 containerPort: 10101
 
 youtubeStatsSettings:
-  ytAPIKey: AIzaSyDdLyaTSuEOAYqYUwY7R5MMcOCtJMLhE7A
-  ytChannelID: UCYdCEhmI88kq3Ygr_7VTDlg
+  ytAPIKey: ""
+  ytChannelID: ""
 
 
 image:

@@ -37,7 +37,7 @@ func getChannelStats(k string, channelID string) httprouter.Handle {
 			return
 		}
 
-		yt := YoutubeStats{}
+		var yt = YoutubeStats{}
 		if len(response.Items) > 0 {
 			val := response.Items[0]
 			yt = YoutubeStats{
